@@ -13,4 +13,9 @@ fn main() {
     let good_evening = String::from("こんばんは, ");
     println!("{}", good_evening + name_literal); // no need to reference &, literal is a slice
 
+    println!("The length of {} is {}", name_literal, name_literal.len()); // 9!
+
+    for c in name.chars() {
+        println!("{}", c);
+    }
 }
