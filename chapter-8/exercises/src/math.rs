@@ -6,7 +6,7 @@ use std::collections::HashMap;
 
 #[derive(Debug)]
 pub struct NumVector {
-    pub numbers: Vec<i32>
+    pub numbers: Vec<i32>,
 }
 
 impl NumVector {
@@ -27,9 +27,9 @@ impl NumVector {
             *map.entry(i).or_insert(0) += 1;
         }
 
-        map
-            .into_iter()
+        map.into_iter()
             .max_by_key(|&(_k, v)| v)
-            .map(|(k, _v)| k).expect("Empty vector")
+            .map(|(k, _v)| k)
+            .expect("Empty vector")
     }
 }

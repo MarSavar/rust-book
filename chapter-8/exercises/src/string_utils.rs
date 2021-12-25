@@ -10,21 +10,20 @@ fn first_letter(string: &str) -> &str {
         let r = string.get(0..i);
         match r {
             Some(x) => return x,
-            None => ()
+            None => (),
         }
     }
     &string[0..0]
 }
 
 pub fn pig_latin(initial_string: String) -> String {
-
     let mut latin_string = String::new();
 
     for word in initial_string.split_whitespace() {
-       let f = first_letter(&word);
+        let f = first_letter(&word);
         match f {
             "a" | "e" | "i" | "o" | "u" => latin_string += &*(word.to_owned() + "-hay "),
-            _ => latin_string += &*(word.to_owned() + "-" + f + "ay ")
+            _ => latin_string += &*(word.to_owned() + "-" + f + "ay "),
         }
     }
     latin_string
