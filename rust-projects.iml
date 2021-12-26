@@ -7,12 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter-8/exercises/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-8/hashmaps/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-8/strings/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-9/error-handling/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-7/restaurant/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-8/strings/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-8/hashmaps/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-8/exercises/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter-9/error-handling/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
