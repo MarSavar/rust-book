@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter-11/adder/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-11/adder/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-12/minigrep/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-13/functional-rust/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-7/restaurant/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-8/strings/target" />
@@ -22,6 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter-10/generics/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-11/adder/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-12/minigrep/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter-13/functional-rust/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
