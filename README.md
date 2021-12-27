@@ -1,3 +1,3 @@
-### 🦀 Rust 
+### 🦀 The Rust Programming Language 
 
-Just experimenting with Rust.
+Implementing code from the Rust book: https://doc.rust-lang.org/book/index.html
