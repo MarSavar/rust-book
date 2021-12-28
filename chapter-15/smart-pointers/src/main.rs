@@ -16,6 +16,16 @@ impl<T> Deref for MyBox<T> {
     }
 }
 
+struct CustomSmartPointer {
+    data: String,
+}
+
+impl Drop for CustomSmartPointer {
+    fn drop(&mut self) {
+        println!("Dropping CustomSmartPointer with data {}", &self.data)
+    }
+}
+
 fn main() {
 
     let x = 5;
@@ -24,4 +34,12 @@ fn main() {
     assert_eq!(5, x);
     assert_eq!(5, *y);
 
+    let _c = CustomSmartPointer {
+        data: String::from("abc")
+    };
+    let _d = CustomSmartPointer {
+        data: String::from("def")
+    };
+
+    println!("CustomSmartPointers created");
 }
