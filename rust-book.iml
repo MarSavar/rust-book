@@ -6,9 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter-15/smart-pointers/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter-16/concurrency/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-16/shared-state/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-15/smart-pointers/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter-16/concurrency/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter-16/shared-state/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
